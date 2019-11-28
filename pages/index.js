@@ -1,7 +1,12 @@
 import '../sass/styles.scss';
+import TopNav from '../components/top-nav';
 
 function Home() {
-  return <div className="example">This is the movieDB DevColab</div>;
+  return (
+    <div>
+      <TopNav />
+    </div>
+  );
 }
 
 export default Home;
